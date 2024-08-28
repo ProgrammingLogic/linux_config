@@ -1,0 +1,52 @@
+"" Indentation
+set expandtab
+set filetype indent on
+set shiftround
+set shiftwidth=4
+set smarttab
+set tabstop=4
+
+"" Search
+set hlsearch
+set ignorecase
+set incsearch
+set smartcase
+
+
+"" Performance
+set complete-=i
+set lazyredraw
+
+"" Text rendering
+set display+=lastline
+set encoding=utf-8
+set linebreak
+set scrolloff=1
+set sidescrolloff=5
+syntax enable
+set wrap
+
+"" User interface
+set laststatus=2
+set ruler
+set wildmenu
+set tabpagemax=50
+set cursorline
+set number
+set background=dark
+set relativenumber
+set noerrorbells
+set mouse=a
+set title
+
+"" Code folding
+set autoread
+set backspace=indent,eol,start
+set backupdir=~/.cache/vim
+set confirm
+set dir=~/.cache/vim
+set formatoptions+=j
+set hidden
+set history=1000
+set nomodeline
+set spell
